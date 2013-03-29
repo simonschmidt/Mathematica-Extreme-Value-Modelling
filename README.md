@@ -5,7 +5,7 @@ Under development
 Example
 -------
 
-    Get["https://raw.github.com/simonschmidt/Mathematica-Extreme-Value-Modelling/master/ExtremeValues.m"]
+    Get["/some/where/ExtremeValues.m"]
     data = RandomVariate[MaxStableDistribution[30, 0.3, -0.3], 50];
     m = EVModelFit[data]
     m["Properties"]
